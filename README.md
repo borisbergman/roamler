@@ -1,2 +1,2 @@
-# roamler-geo
-Spatial search with indexing using mysql
+# roamler
+A spatial search api on mysql
