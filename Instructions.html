@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Roamler Code Exercise</title>
+		<style>
+			body
+			{
+				font-family: Verdana;
+			}
+
+			h3
+			{
+				font-size: 100%;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div>
+			<h1>Roamler Code Exercise</h1>
+
+			<p>Hi and welcome! As part of our hiring process we'd like to get an idea of your technical skill level, as well as your ability to analyze and solve computing problems. And that's where this Exercise comes into play. It is designed to test some parts of your skillset, and hopefully provide us with a glimpse at your abilities.</p>
+
+			<h2>The Exercise</h2>
+			<p>At Roamler, we deal with a lot of locations. Each available task has a location and as you can imagine, this adds up. Since we are operating in an ever growing number of countries, the number of locations, as well as the number of users requesting information about them, is rising steadily. In fact, our live system currently contains almost 1 million locations already! Going through all of these locations to provide users with the relevant ones is tricky, which makes it a perfect Exercise!<p>
+
+			<p>You are tasked with developing a system that allows us to query the locations. The architecture and inner workings of this system are up to you, it could be one class, or it could have many. Design it as you would a real project.</p>
+
+			<p>You are free to choose the interface of the system, but it should provide a function similar to this:</p>
+			<pre>SearchResult GetLocations(Location location, int maxDistance, int maxResults);</pre>
+
+			<h3>Requirements</h3>
+			<ul>
+				<li>The system must be written in C#</li>
+				<li>It must be possible to set a maximum distance</li>
+				<li>It must be possible to set a maximum number of results</li>
+				<li>Results should be ordered by distance</li>
+				<li>The system should not slow down significantly if the number of locations increases</li>
+			</ul>
+
+			<h3>Accompanying files</h3>
+			<p>The exercise package contains some files to get you started. In the Data directory you'll find a file containing a bunch of locations for you to use. The Code directory contains a basic location class. You can use this for calculating distances between locations. You can use it as-is, or you can just take the distance function from it. It's up to you!</p>
+
+			<p>As you might've noticed, we've kept the requirements and instructions a bit fuzzy, this is intentional. We want to see how you approach this kind of a problem. If you have any questions though, let me know! When you have completed the Exercise, send the finished product to <a href="mailto:dennis@roamler.com">dennis@roamler.com</a>.</p>
+
+			<p>Good luck!</p>
+
+			<p>Dennis Meelker</p>
+		</div>
+	</body>
+</html>
